@@ -19,6 +19,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("accounts/", include("users_management.urls")),
+    path("accounts/", include("user_management.urls")),
     path("", include("my_lists.urls"))
 ]
+#                 "django.template.context_processors.request",
